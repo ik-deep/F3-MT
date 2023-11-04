@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function (event) {
   }}
 
 
-  // https://api.postalpincode.in/pincode/${pincode}
+ 
   async function getPostal(pincode) {
     try {
       const response = await fetch(
