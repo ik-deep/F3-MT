@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(30,30,30);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px !important;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    /* padding: 2rem; */
+    background-color: black;
+    width: 85vw;
+    height: 80vh;
+}
+.left h2{
+    color: rgba(87, 90, 133, 1);
+}
+.left p{
+   color: white;
+}
+.left{
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left div{
+   text-align: center;
+   background-image: url("undraw_messenger_re_8bky 1.png");
+  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: contain;
+   width: 100%;
+   height: 250px;
+}
+.right{
+text-align: center;
+width: 50%;
+background-color:#575A85;
+position: relative;
+
+}
+.right div{
+ color: #B8BCCC;
+    /* position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    margin-top: 200px;
+    
+}
+#get-started{
+    width: 154px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 18px;
+    height: 38px;
+    padding: 4px;
+    color: #B8BCCC;
+    border: 2px solid #B8BCCC;
+    background-color: transparent;
+}

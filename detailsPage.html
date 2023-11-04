@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="details.css">
+</head>
+<body>
+    <div class="details">
+        <p>IP Address:&nbsp;<span id="ip-add"></span></p>
+        <div class="info">
+            <div class="info1">
+                <p>Lat:&nbsp;<span id="lat"></span></p>
+                <p>Long:&nbsp;<span id="long"></span></p>
+            </div>
+            <div class="info2">
+                <p>City:&nbsp;<span id="city"></span></p>
+                <p>Region:&nbsp;<span id="region"></span></p>
+            </div>
+            <div class="info3">
+                <p>Organisation:&nbsp;<span id="org"></span></p>
+                <p>Hostname:&nbsp;<span id="host"></span></p>
+            </div>
+        </div>
+    
+    <div class="map" >
+        <h2 style="padding: 18px;">Your Current Location</h2>
+       <div id="map" style="padding: 10px;"></div>
+    </div>
+
+    <div class="more-info">
+        <h2>More Information About You</h2>
+        <p>Time Zone: &nbsp;<span id="timezone"></span></p>
+        <p>Date And Time:&nbsp;<span id="datetime"></span></p>
+        <p>Pincode:&nbsp;<span id="pincode"></span></p>
+        <p>Message:&nbsp;<span id="message"></span></p>
+    </div>
+
+    <div class="postOffice">
+         <h2>Post Offices Near You</h2>
+         <div class="search-box">
+            <img src="Vector.png" style="padding: 12px;
+            width: 1.2rem;" alt="" class="search-icon">
+            <input type="text" style="height: 40px;
+            width: 100%;
+            background-color: transparent;
+            outline: none;
+            border: none;font-size: 18px;
+    color: #B8BCCC;;" placeholder="Search By Name">
+         </div>
+         <div class="postal"  id="postalList">
+            <!-- <div class="postal-card">
+                <p>Name:&nbsp;<span class="name"></span></p>
+                <p>Branch Type:&nbsp;<span class="branch"></span></p>
+                <p>Delivery:&nbsp;<span class="delivery"></span></p>
+                <p>District:&nbsp;<span class="district"></span></p>
+                <p>Division:&nbsp;<span class="division"></span></p>
+            </div> -->
+         </div>
+    </div>
+    </div>
+    <script src="detailsPage.js"></script>
+</body>
+</html>
